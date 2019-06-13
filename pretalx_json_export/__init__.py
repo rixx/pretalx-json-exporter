@@ -9,7 +9,9 @@ class PluginApp(AppConfig):
     class PretalxPluginMeta:
         name = ugettext_lazy('More JSON exports for pretalx')
         author = 'Tobias Kunze'
-        description = ugettext_lazy('A range of additional JSON exports (questions, reviews, …)')
+        description = ugettext_lazy(
+            'A range of additional JSON exports (questions, reviews, …)'
+        )
         visible = True
         version = '0.0.0'
 
