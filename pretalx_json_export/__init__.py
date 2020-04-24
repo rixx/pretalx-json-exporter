@@ -1,5 +1,5 @@
 from django.apps import AppConfig
-from django.utils.translation import ugettext_lazy
+from django.utils.translation import gettext_lazy
 
 
 class PluginApp(AppConfig):
@@ -7,9 +7,9 @@ class PluginApp(AppConfig):
     verbose_name = 'More JSON exports for pretalx'
 
     class PretalxPluginMeta:
-        name = ugettext_lazy('More JSON exports for pretalx')
+        name = gettext_lazy('More JSON exports for pretalx')
         author = 'Tobias Kunze'
-        description = ugettext_lazy(
+        description = gettext_lazy(
             'A range of additional JSON exports (questions, reviews, …)'
         )
         visible = True
