@@ -34,6 +34,7 @@ class ReviewExporter(BaseExporter):
     verbose_name = 'Reviews (JSON)'
     icon = '{ }'
     public = False
+    cors = "*"
 
     def render(self, **kwargs):
         reviews = Review.objects.filter(submission__event=self.event)
