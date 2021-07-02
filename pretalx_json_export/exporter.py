@@ -2,11 +2,12 @@ import json
 
 from i18nfield.rest_framework import I18nAwareModelSerializer
 from i18nfield.utils import I18nJSONEncoder
+from rest_framework import serializers
+
 from pretalx.api.serializers.question import AnswerSerializer
 from pretalx.api.serializers.submission import SubmissionSerializer
 from pretalx.common.exporter import BaseExporter
 from pretalx.submission.models import Review
-from rest_framework import serializers
 
 
 class ReviewSerializer(I18nAwareModelSerializer):
