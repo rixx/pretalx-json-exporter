@@ -1,5 +1,4 @@
 from django.dispatch import receiver
-
 from pretalx.common.signals import register_data_exporters
 
 
