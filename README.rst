@@ -1,6 +1,8 @@
 More JSON exports for pretalx
 ==========================
 
+**This plugin is deprecated, as there is now JSON support in pretalx core.**
+
 This is a plugin for `pretalx`_. 
 
 Development setup
